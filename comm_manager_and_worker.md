@@ -1,3 +1,4 @@
+# Communications Manager and Worker
 The communications manager is designed to help facilitate communications with the HoloLens and the MCC. This makes it easier to send and receive JSON. In the future, there will be added support for sending and receiving media. 
 
 <h2> Using the Communications Manager</h2>
