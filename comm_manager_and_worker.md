@@ -7,8 +7,8 @@ There is no need to use the communications worker, as this is called by the comm
 To use the communications manager, you need a url you would like to interface with and a function to call after the communication has occurred. It is important to note that UnityWebRequests (which are what the Communications Manager is built off of), are asynchronous. Lets look at an example to understand this better and how to use the CommunicationsManager
 
 ```
-private string MCC_Send_Heartbeat_Url = "http://claws-mcc.herokuapp.com/Send_Heartbeat";
-private string MCC_Get_Heartbeat_Url = "http://claws-mcc.herokuapp.com/Get_Heartbeat";
+private string MCC_Send_Heartbeat_Url = "[our_server]/Send_Heartbeat;
+private string MCC_Get_Heartbeat_Url = "[our_server]/Get_Heartbeat";
 
 private void SendMCCHeartbeat()
 {
