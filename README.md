@@ -8,6 +8,6 @@ An example of how modules are integrated into a protocol can be seen in here:
 
 ![Protocol/Module Breakdown](diagrams/architecture_2.png)
 
-A core part of the ATLAS system is handling communications with the CLAWS Mission Control Center, which allows for functionality such as live updates on mission tasks and photo transmission. More on this can be seen in [Communication Manager and Workers](comm_manager_and_worker.md). 
+A core part of the ATLAS system is handling communications with the CLAWS Mission Control Center, which allows for functionality such as live updates on mission tasks and photo transmission. More on this can be seen in [Communications Manager and Workers](comm_manager_and_worker.md). 
 
 ![Communications Overview](diagrams/comm_relay)
