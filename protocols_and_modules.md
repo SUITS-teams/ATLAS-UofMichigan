@@ -81,3 +81,6 @@ The update method is the heart of the module, as this is the place to put code t
 The pause method is used to disable the module when it is no longer deemed active by the protocol manager. This is a great place to deactivate UI elements, store any file data that need to be preserved, and stop timers or event listeners.
 
 The terminate method is unlikely to be called but this is called when the program is exiting. A good place to put some final safeties designed to protect file data.
+
+<img src="diagrams/u-m-logo-horizontal.png" width="400" text-align="center">
+
