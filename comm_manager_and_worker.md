@@ -55,3 +55,6 @@ When sending JSON to the MCC you must specify a function to call afterwards that
 <h2>Understanding the CommunicationsManager and Worker</h2>
 
 The communications manager uses the MCC endpoint being hit and the function to be called afterwards as a unique identifier. This unique identifier is used to make sure to limit the number of requests made to the MCC, where the HoloLens will wait before making identical requests until the previous one has been served. The Manager will make a worker for each request that will then perform the send or get request and then call the desired function. Finally the unique identifier will be released so another identical request can be handled in the future
+
+<img src="diagrams/u-m-logo-horizontal.png" width="400" text-align="center">
+
