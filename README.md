@@ -1,4 +1,4 @@
-![ATLAS](diagrams/atlas.png)
+<img src="diagrams/atlas.png" width="1000" text-align="center">
 
 # ATLAS Infrastructure Overview
 
@@ -17,4 +17,4 @@ A core part of the ATLAS system is handling communications with the CLAWS Missio
 ![Communications Overview](diagrams/atlas-flowchart.png)
 
 
-![U-M](diagrams/u-m-logo-horizontal.png)
+<img src="diagrams/u-m-logo-horizontal.png" width="400" text-align="center">
