@@ -3,7 +3,7 @@ The communications manager is designed to help facilitate communications with th
 
 <h2> Using the Communications Manager</h2>
 
-There is no need to use the communications worker, as this is called by the communications manager and the communications manager should be interfaces with.
+There is no need to use the communications worker, as this is called by the communications manager and the communications manager should be interfaced with.
 
 To use the communications manager, you need a url you would like to interface with and a function to call after the communication has occurred. It is important to note that UnityWebRequests (which are what the Communications Manager is built off of), are asynchronous. Lets look at an example to understand this better and how to use the CommunicationsManager
 
